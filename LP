@@ -200,7 +200,7 @@
     })();
 
     // Envio via WhatsApp + backup opcional em Netlify
-    const WHATS_TARGET = '55XXXXXXXXXXX'; // Substitua por seu número: DDI+DDD+NÚMERO (ex.: 5551999999999)
+    const WHATS_TARGET = '5551982065175'; // Substitua por seu número: DDI+DDD+NÚMERO (ex.: 5551999999999)
 
     async function handleSubmit(e){
       e.preventDefault();
