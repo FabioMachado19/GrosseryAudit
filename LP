@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Inventário simples para mercados de bairro | Captura de Leads</title>
+  <meta name="description" content="Solução de inventário de mercadorias para pequenos e médios mercados. Reduza rupturas, desperdícios e ganhe produtividade." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { --brand: #0ea5e9; /* sky-500 */ }
+    body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Apple Color Emoji', 'Segoe UI Emoji'; }
+    .card { @apply bg-white rounded-2xl shadow-xl border border-gray-100; }
+    .container-narrow { @apply max-w-6xl mx-auto px-4; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class="border-b border-gray-100 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-20">
+    <div class="container-narrow flex items-center justify-between py-3">
+      <div class="flex items-center gap-2">
+        <div class="h-9 w-9 rounded-xl bg-sky-500/10 flex items-center justify-center">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 6h16M4 12h10M4 18h16" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span class="font-semibold">Inventário Simples</span>
+      </div>
+      <a href="#lead" class="text-sm font-medium text-sky-700 hover:text-sky-800">Quero testar</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="container-narrow grid md:grid-cols-2 gap-8 items-center py-16 md:py-20">
+    <div>
+      <h1 class="text-3xl md:text-4xl font-bold leading-tight">
+        Controle seu estoque de forma <span class="text-sky-600">simples</span>, rápida e sem dor de cabeça
+      </h1>
+      <p class="mt-4 text-lg text-gray-600">
+        Acabe com rupturas, desperdícios e perda de vendas com uma solução de inventário inteligente,
+        feita para mercados de bairro e PMEs.
+      </p>
+      <div class="mt-6 flex gap-3">
+        <a href="#lead" class="inline-flex items-center justify-center rounded-2xl bg-sky-600 px-6 py-3 text-white font-semibold shadow-lg shadow-sky-600/20 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-400">
+          Quero testar a solução
+        </a>
+        <a href="#beneficios" class="inline-flex items-center justify-center rounded-2xl border border-gray-300 bg-white px-6 py-3 font-semibold hover:bg-gray-50">
+          Ver benefícios
+        </a>
+      </div>
+      <p class="mt-3 text-xs text-gray-500">Sem compromisso. Retornamos em até 1 dia útil.</p>
+    </div>
+    <div class="card p-6 md:p-8">
+      <div class="flex items-center gap-4">
+        <div class="h-12 w-12 rounded-2xl bg-sky-500/10 flex items-center justify-center">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 4h16v6H4zM4 14h10v6H4z" stroke="#0ea5e9" stroke-width="2"/>
+          </svg>
+        </div>
+        <div>
+          <p class="text-sm text-gray-500">Painel do gestor</p>
+          <h3 class="font-semibold">Estoque em tempo real</h3>
+        </div>
+      </div>
+      <div class="mt-6 grid grid-cols-2 gap-3 text-sm">
+        <div class="rounded-xl border border-gray-200 p-3">
+          <p class="text-gray-500">Ruptura</p>
+          <p class="font-semibold">-38%</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 p-3">
+          <p class="text-gray-500">Tempo de contagem</p>
+          <p class="font-semibold">-52%</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 p-3">
+          <p class="text-gray-500">Giro médio</p>
+          <p class="font-semibold">+18%</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 p-3">
+          <p class="text-gray-500">Vencimento</p>
+          <p class="font-semibold">-24%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefícios -->
+  <section id="beneficios" class="container-narrow py-6">
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="card p-6">
+        <h3 class="text-lg font-semibold">📦 Estoque em tempo real</h3>
+        <p class="mt-2 text-gray-600">Saiba o que tem na loja, sem planilhas manuais e com histórico.</p>
+      </div>
+      <div class="card p-6">
+        <h3 class="text-lg font-semibold">📊 Relatórios claros</h3>
+        <p class="mt-2 text-gray-600">Reposição assertiva e alertas de ruptura e vencimento.</p>
+      </div>
+      <div class="card p-6">
+        <h3 class="text-lg font-semibold">⏱️ Economia de tempo</h3>
+        <p class="mt-2 text-gray-600">Reduza o esforço de contagem e elimine retrabalho.</p>
+      </div>
+      <div class="card p-6">
+        <h3 class="text-lg font-semibold">💰 Mais margem</h3>
+        <p class="mt-2 text-gray-600">Menos perdas por vencimento/ruptura, mais vendas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulário de captura -->
+  <section id="lead" class="container-narrow py-12">
+    <div class="grid lg:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-2xl md:text-3xl font-bold">Cadastre-se para saber mais</h2>
+        <p class="mt-2 text-gray-600">Preencha os dados e retornamos com uma proposta sob medida para o seu mercado.</p>
+        <ul class="mt-6 space-y-2 text-gray-700">
+          <li class="flex items-start gap-2"><span class="mt-1">✅</span> Implementação simples (comece em dias, não meses)</li>
+          <li class="flex items-start gap-2"><span class="mt-1">✅</span> Funciona em celular e computador</li>
+          <li class="flex items-start gap-2"><span class="mt-1">✅</span> Integração opcional com planilhas/ERP</li>
+        </ul>
+      </div>
+
+      <form name="lead-supermercados" method="POST" data-netlify="true" netlify-honeypot="campo_extra" class="card p-6 md:p-8 space-y-4" onsubmit="handleSubmit(event)">
+        <input type="hidden" name="form-name" value="lead-supermercados">
+        <input type="hidden" id="utm_source" name="utm_source" value="" />
+        <input type="hidden" id="utm_medium" name="utm_medium" value="" />
+        <input type="hidden" id="utm_campaign" name="utm_campaign" value="" />
+        <p class="hidden">
+          <label>Não preencher: <input name="campo_extra" /></label>
+        </p>
+        <div>
+          <label for="market" class="block text-sm font-medium">Nome do Mercado *</label>
+          <input id="market" name="market" type="text" required class="mt-1 w-full rounded-xl border border-gray-300 px-4 py-3 focus:border-sky-500 focus:ring-sky-500" placeholder="Mercado do Bairro Silva" />
+        </div>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div>
+            <label for="owner" class="block text-sm font-medium">Nome do Responsável *</label>
+            <input id="owner" name="owner" type="text" required class="mt-1 w-full rounded-xl border border-gray-300 px-4 py-3 focus:border-sky-500 focus:ring-sky-500" placeholder="Maria Souza" />
+          </div>
+          <div>
+            <label for="whats" class="block text-sm font-medium">Telefone / WhatsApp *</label>
+            <input id="whats" name="whats" type="tel" required inputmode="tel" class="mt-1 w-full rounded-xl border border-gray-300 px-4 py-3 focus:border-sky-500 focus:ring-sky-500" placeholder="(11) 99999-9999" />
+          </div>
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium">E-mail *</label>
+          <input id="email" name="email" type="email" required class="mt-1 w-full rounded-xl border border-gray-300 px-4 py-3 focus:border-sky-500 focus:ring-sky-500" placeholder="contato@mercado.com.br" />
+        </div>
+        <div>
+          <label for="cities" class="block text-sm font-medium">Cidades/Unidades</label>
+          <input id="cities" name="cities" type="text" class="mt-1 w-full rounded-xl border border-gray-300 px-4 py-3 focus:border-sky-500 focus:ring-sky-500" placeholder="Ex.: Porto Alegre (2 lojas), Canoas (1 loja)" />
+        </div>
+        <div>
+          <label for="pain" class="block text-sm font-medium">Qual sua maior dor hoje?</label>
+          <textarea id="pain" name="pain" rows="3" class="mt-1 w-full rounded-xl border border-gray-300 px-4 py-3 focus:border-sky-500 focus:ring-sky-500" placeholder="Ex.: ruptura e perda por vencimento"></textarea>
+        </div>
+        <button type="submit" class="w-full rounded-2xl bg-sky-600 px-6 py-3 text-white font-semibold shadow-lg shadow-sky-600/20 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-400">
+          Enviar pelo WhatsApp
+        </button>
+        <p class="text-xs text-gray-500 text-center">Ao enviar, abriremos uma conversa no WhatsApp com seus dados pré-preenchidos. Também registramos um backup seguro do lead.</p>
+        <p id="form-status" class="hidden text-center text-sm font-medium"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Chamada final -->
+  <section class="container-narrow pb-16">
+    <div class="text-center max-w-3xl mx-auto">
+      <p class="text-gray-600">
+        Seu mercado perde vendas por falta de controle de estoque. Não perca dinheiro — conheça uma forma
+        mais simples de gerenciar seu inventário.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-100 py-8 text-sm">
+    <div class="container-narrow flex flex-col md:flex-row items-center justify-between gap-3">
+      <p class="text-gray-500">© <span id="year"></span> Inventário Simples. Todos os direitos reservados.</p>
+      <div class="flex items-center gap-4 text-gray-500">
+        <a href="#" class="hover:text-gray-700">Termos</a>
+        <span>•</span>
+        <a href="#" class="hover:text-gray-700">Privacidade</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Atualiza ano
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Captura UTM params automaticamente
+    (function fillUTM(){
+      const params = new URLSearchParams(window.location.search);
+      ['utm_source','utm_medium','utm_campaign'].forEach(k => {
+        const el = document.getElementById(k);
+        if (el && params.get(k)) el.value = params.get(k);
+      });
+    })();
+
+    // Envio via WhatsApp + backup opcional em Netlify
+    const WHATS_TARGET = '55XXXXXXXXXXX'; // Substitua por seu número: DDI+DDD+NÚMERO (ex.: 5551999999999)
+
+    async function handleSubmit(e){
+      e.preventDefault();
+      const form = e.target;
+      const status = document.getElementById('form-status');
+      const data = new FormData(form);
+      const payload = Object.fromEntries(data.entries());
+
+      const text = `Novo lead – Inventário Simples
+` +
+        `Mercado: ${payload.market || ''}
+` +
+        `Responsável: ${payload.owner || ''}
+` +
+        `WhatsApp: ${payload.whats || ''}
+` +
+        `E-mail: ${payload.email || ''}
+` +
+        `Cidades/Unidades: ${payload.cities || ''}
+` +
+        `Dor: ${payload.pain || ''}
+` +
+        `UTM Source: ${payload.utm_source || ''}
+` +
+        `UTM Medium: ${payload.utm_medium || ''}
+` +
+        `UTM Campaign: ${payload.utm_campaign || ''}`;
+
+      const waLink = `https://wa.me/${WHATS_TARGET}?text=${encodeURIComponent(text)}`;
+
+      // Abre conversa no WhatsApp em nova aba/guia
+      window.open(waLink, '_blank');
+
+      // Backup opcional no Netlify (silencioso)
+      try {
+        await fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams([...data]).toString()
+        });
+      } catch (err) { /* opcional: ignorar erro de backup */ }
+
+      status.className = 'mt-2 text-center text-sm font-medium text-emerald-700';
+      status.textContent = 'Abrimos uma conversa no WhatsApp. Se não abriu, verifique bloqueadores de pop-up.';
+      status.classList.remove('hidden');
+    }
+  </script>
+</body>
+</html>
